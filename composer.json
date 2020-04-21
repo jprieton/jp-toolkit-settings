@@ -1,0 +1,25 @@
+{
+  "name"              : "jp-toolkit/extension-template",
+  "type"              : "library",
+  "description"       : "A template to develop JP Toolkit extensions",
+  "keywords"          : [ "wordpress", "wordpress-development", "wordpress-plugin", "wordpress-theme", "jp-toolkit", "template" ],
+  "homepage"          : "https://github.com/jprieton/jp-toolkit-extension-template/", 
+  "license"           : "GPL-3.0-or-later",
+  "minimum-stability" : "stable",
+  "require"           : {
+    "wptrt/admin-notices" : "^1.0",
+    "php"                 : ">=7"
+  },
+  "support"           : {
+    "issues" : "https://github.com/jprieton/jp-toolkit-extension-template/issues",
+    "wiki"   : "https://github.com/jprieton/jp-toolkit-extension-template/wiki"
+  },  
+  "autoload"          : {
+    "psr-4" : {
+      "JPToolkit\\ExtensionTemplate\\": "includes/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
