@@ -1,1 +1,1 @@
-# JP Toolkit Extension Template
+# JP Toolkit Settings

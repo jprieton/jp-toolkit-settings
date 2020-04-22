@@ -1,9 +1,9 @@
 {
-  "name"              : "jp-toolkit/extension-template",
+  "name"              : "jp-toolkit/settings",
   "type"              : "library",
   "description"       : "A template to develop JP Toolkit extensions",
-  "keywords"          : [ "wordpress", "wordpress-development", "wordpress-plugin", "wordpress-theme", "jp-toolkit", "template" ],
-  "homepage"          : "https://github.com/jprieton/jp-toolkit-extension-template/", 
+  "keywords"          : [ "wordpress", "wordpress-development", "wordpress-plugin", "wordpress-theme", "jp-toolkit", "settings" ],
+  "homepage"          : "https://github.com/jprieton/jp-toolkit-settings/", 
   "license"           : "GPL-3.0-or-later",
   "minimum-stability" : "stable",
   "require"           : {
@@ -11,12 +11,12 @@
     "php"                 : ">=7"
   },
   "support"           : {
-    "issues" : "https://github.com/jprieton/jp-toolkit-extension-template/issues",
-    "wiki"   : "https://github.com/jprieton/jp-toolkit-extension-template/wiki"
+    "issues" : "https://github.com/jprieton/jp-toolkit-settings/issues",
+    "wiki"   : "https://github.com/jprieton/jp-toolkit-settings/wiki"
   },  
   "autoload"          : {
     "psr-4" : {
-      "JPToolkit\\ExtensionTemplate\\": "includes/"
+      "JPToolkit\\Settings\\": "includes/"
     }
   },
   "require-dev": {

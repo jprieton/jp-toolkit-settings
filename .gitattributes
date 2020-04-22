@@ -3,7 +3,7 @@
 /bin                                  export-ignore
 /composer.json                        export-ignore
 /composer.lock                        export-ignore
-/jp-toolkit-extension-template.php    export-ignore
+/jp-toolkit-settings.php    export-ignore
 /nbproject                            export-ignore
 /phpunit.xml.dist                     export-ignore
 /README.md                            export-ignore
